@@ -327,7 +327,7 @@ hr {
 
     .nav-main {
     font-size: 17px;
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     height: 60px;

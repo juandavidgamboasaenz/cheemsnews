@@ -135,3 +135,15 @@ function makeArrayConsecutive2(statues) {
 }
 
 console.log(makeArrayConsecutive2([6, 2, 3, 8]))
+
+function imprime(){
+    var x= '5';
+    alert(x+y);
+}
+
+var x= 3;
+
+var y = 2;
+
+imprime();
+alert(x+y);

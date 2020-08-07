@@ -1,4 +1,4 @@
-/*document.querySelector('.menu-btn').addEventListener('click', ()=> {
+document.querySelector('.menu-btn').addEventListener('click', ()=> {
     document.querySelector('.nav-menu').classList.toggle('show');
 })
 
@@ -146,12 +146,12 @@ var x= 3;
 var y = 2;
 
 imprime();
-alert(x+y);*/
+alert(x+y);
 
 var myArray = [1,2,1,3,3,1,2,1,5,1];
 var myPivot = [0,0,0,0,0,0]
 
-//var myPivot = [0,0,0,0,0,0,0,0,0,0];
+var myPivot = [0,0,0,0,0,0,0,0,0,0];
 
 for (var i = 0; i < 10 ; i++){
     for (var j = 0; j < 6 ; j++)
@@ -166,10 +166,10 @@ console.log("3:" + myPivot[3]);
 console.log("4:" + myPivot[4]);
 console.log("5:" + myPivot[5]);
 
-/*
+
 for (var j = 0; j <10; j++){
     if(myArray[i] == myArray[j]){
         myPivot[i] = myPivot[i] + 1;
     }
     console.log(myPivot);
-}*/
+}

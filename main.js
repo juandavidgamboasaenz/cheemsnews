@@ -9,6 +9,9 @@ ScrollReveal().reveal('.cheems-cards',  {delay: 1000} );
 ScrollReveal().reveal('.cards-banner-one',  {delay: 500} );
 ScrollReveal().reveal('.cards-banner-two',  {delay: 500} );
 
+
+
+/*
 function stringPermutations(str){
     var array = getPermutations(str);
     array = removeDuplicates(array);
@@ -172,4 +175,62 @@ for (var j = 0; j <10; j++){
         myPivot[i] = myPivot[i] + 1;
     }
     console.log(myPivot);
+}
+*/
+
+// you can write to stdout for debugging purposes, e.g.
+// console.log('this is a debug message');
+
+var S = "BALLOONXXBALLOXXONBAXXLLOON";
+var balloons;
+
+function solution1(S) {
+    // write your code in JavaScript (Node.js 8.9.4)
+    
+    console.log(S);
+    return null;
+}
+
+solution1(S);
+
+
+var A =  [1,0,0,0,1,1,0,0,1,0,1];
+
+function solution(A) {
+
+    var pivot = 0;
+
+    for (var i = A[A.length -1 ];  0; i--){
+        B = A;
+        if (A[0] = 0){
+            if (A[i] == A[i+1]){
+                A[i] = 0;
+                A[i+1] = 1;
+                pivot = pivot +1;
+            }
+        } 
+        if (A[0] = 1){
+            if (A[i] == A[i+1]){
+                A[i] = 1;
+                A[i+1] = 0;
+                pivot = pivot +1 ;
+            }
+        }
+       
+    }
+    console.log(pivot)
+    return pivot;
+}
+    
+solution(A);
+
+console.log(f(false));
+function f(input: boolean) {
+        let x= 10;
+
+        if (input) {
+               let y = x+ 1;
+               return y;
+        }
+        return y;
 }
